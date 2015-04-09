@@ -28,6 +28,7 @@ gem "paperclip", "~> 4.2"
 gem "paperclip-dropbox", ">= 1.1.7"
 gem "figaro"
 gem "devise"
+gem "stripe"
 
 group :production do |variable|
 	gem 'pg'
